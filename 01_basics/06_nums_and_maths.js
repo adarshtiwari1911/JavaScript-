@@ -50,7 +50,7 @@ console.log(Math.max(1, 2, 3, 4, 5, 6, 7)); // Outputs: 7
 console.log(Math.random());
 
 // Generates a random decimal number between 1 (inclusive) and 11 (exclusive)
-console.log(Math.random() * 10 + 1);
+console.log((Math.random() * 10) + 1);
 
 // Generates a random integer between 1 (inclusive) and 10 (inclusive)
 console.log(Math.floor(Math.random() * 10 + 1));
