@@ -1,6 +1,7 @@
 // Immediately Invoked Function Expressions (IIFE)
 
 // IIFE ka matlab hai ek function jo turant define hone ke baad execute ho jata hai
+//global scope ke variable se problem hoti hai kaafi baar to usko hatane ke liye hum iife ka use krte hai
 
 (function chai() {
     // yeh ek named IIFE hai
