@@ -4,7 +4,7 @@ const user = {
 
     welcomeMessage: function () {
         console.log(`${this.username}, Welcome to website`);
-        // console.log(this); 
+        //  console.log(this); 
         // yeh this keyword se user object ko refer karta hai
     }
 };
@@ -16,7 +16,7 @@ const user = {
 
 // function chai(){
 //     console.log(this);
-//     // yahaan par this global object ko point karta hai
+// //     // yahaan par this global object ko point karta hai
 // }
 // chai()
 
@@ -27,16 +27,16 @@ const user = {
 // }
 // chai()
 
-const chai = () => {
-    let username = "adarsh"
-    //console.log(this.username)
-    console.log(this);
-    // arrow functions mein this lexical scope se liya jata hai, yaani global object ko refer karta hai
-}
-chai()
+// const chai = () => {
+//     let username = "adarsh"
+//     console.log(this.username)
+//     console.log(this);
+//     // arrow functions mein this lexical scope se liya jata hai, yaani global object ko refer karta hai
+// }
+// chai()
 
 const addTwo = (num1, num2) => {
     return num1 + num2 //explicit return
 }
 //const addTwo=(num1,num2)=>num1,num2 - implicit return galat hai, isme proper syntax nahi hai
-console.log(addTwo(4, 5)) // 9
+console.log(addTwo(4, 5)) // 
