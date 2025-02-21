@@ -4,7 +4,7 @@ var accountPassword="12345"
 accountCity="Jaipur"
 let accountState //this will return undefined as we wanna create this but we have not given it the value
 
-// accountId=2 it is not allowed  as accountId was declared as a constant
+//accountId=2 it is not allowed  as accountId was declared as a constant
 accountEmail="me.adarsh1911@gmail.com"//it will be modified
 accountPassword="54321"//this will be modified
 accountCity="Noida"
