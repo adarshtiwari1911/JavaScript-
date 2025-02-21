@@ -27,7 +27,7 @@ one(); // function 'one' ko call kiya jaa raha hai
 
 if (true) {
     const username = "adarsh"; // 'username' ko block scope mein define kiya gaya hai
-    if (username === "hitesh") {
+    if (username === "adarsh") {
        const website = "google"; // 'website' ko inner block scope mein define kiya gaya hai
        console.log(username + website); // yeh 'username' aur 'website' ko concatenate karke print karega
     }
@@ -37,7 +37,7 @@ if (true) {
 
 // console.log(username); // yeh error dega kyunki 'username' block scope ke bahar upalabdh nahi hai
 
-//+++++++++++++
+//+++++++++++++++++Interesting++++++++++++++++++++++
 
 console.log(addone(5)); // yaha hoisting ho gaya, function definition pahle se memory mein allocate hoti hai
 function addone(num) {
@@ -45,7 +45,9 @@ function addone(num) {
 }
 
 // yaha hoisting nahi hoga, kyunki const se define function ko hoisting nahi milti
-console.log(addTwo(5)); // yeh error dega kyunki function expression ko pahle initialize nahi kiya gaya
+// console.log(addTwo(5)); 
+// yeh error dega kyunki function expression ko pahle initialize nahi kiya gaya
 const addTwo = function(num) {
     return num + 2;
 };
+console.log(addTwo(5)); 
