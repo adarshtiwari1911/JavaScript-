@@ -8,11 +8,11 @@ const user = {
         // yeh this keyword se user object ko refer karta hai
     }
 };
-// user.welcomeMessage()
-// user.username="sam"
-// user.welcomeMessage()
-// console.log(user)
-// console.log(this);
+user.welcomeMessage()
+user.username="sam"
+user.welcomeMessage()
+console.log(user)
+console.log(this);
 
 // function chai(){
 //     console.log(this);

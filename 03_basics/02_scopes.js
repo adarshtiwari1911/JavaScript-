@@ -47,7 +47,8 @@ function addone(num) {
 // yaha hoisting nahi hoga, kyunki const se define function ko hoisting nahi milti
 // console.log(addTwo(5)); 
 // yeh error dega kyunki function expression ko pahle initialize nahi kiya gaya
+// console.log(addTwo(5)); 
 const addTwo = function(num) {
     return num + 2;
 };
-console.log(addTwo(5)); 
+// console.log(addTwo(5)); 
