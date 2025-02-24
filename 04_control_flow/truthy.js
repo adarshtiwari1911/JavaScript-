@@ -9,7 +9,7 @@ if (userEmail) {
 }
 
 // falsy values
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+// false, 0, -0, BigInt (0n), "", null, undefined, NaN
 // yeh sab falsy values hoti hain, matlab inhe if condition mein false mana jata hai
 
 // truthy values
