@@ -31,3 +31,5 @@ for (const [key, value] of map) {
     console.log(`${key} stands for ${value}`);
     // yeh loop map ke har entry ko print karega: key aur value
 }
+
+

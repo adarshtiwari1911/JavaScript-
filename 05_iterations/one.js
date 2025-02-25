@@ -11,19 +11,19 @@ for (let i = 0; i < 10; i++) {
     // outer loop 0 se 9 tak chalega
 
     for (let j = 0; j < 10; j++) {
-        console.log(`Inner  loop value ${j} and inner loop value ${i}`);
+        console.log(i + "*" + j + "=" + i*j);
         // inner loop bhi 0 se 9 tak chalega aur har baar outer loop ki value ke saath print karega
     }   
 }
 
 // for loop for printing table
 
-for (let i = 0; i <= 10; i++) {
-    for (let j = 0; j <= 10; j++) {
-        console.log(i + "*" + j + "=" + i*j);
-        // yeh nested loop i aur j ki madad se table print karega, jaise 2*2=4
-    }  
-}
+// for (let i = 0; i <= 10; i++) {
+//     for (let j = 0; j <= 10; j++) {
+//         console.log(i + "*" + j + "=" + i*j);
+//         // yeh nested loop i aur j ki madad se table print karega, jaise 2*2=4
+//     }  
+// }
 
 let myArray = ["flash", "superman", "batman"];
 for (let i = 0; i < myArray.length; i++) {
