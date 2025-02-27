@@ -11,14 +11,18 @@ for (const key in myObject) {
     console.log(`${key} shortcut is for ${myObject[key]}`);
     // yeh loop object ke har property ke key aur value ko print karega
 }
+const programming=["js","rb","py","java","cpp"]
 
+for (const key in programming) {
+    console.log(programming[key]);        
+}
 const map = new Map();
 map.set('IN', "India");
 map.set('USA', "United States of America");
 map.set('Fr', "France");
 map.set('IN', "India");
 
-// Map ke keys ko print karne ke liye for...in loop ka use nahi hota
+// Map ke keys ko print karne ke liye for...in loop ka use nahi hota kyuki map iterable nhi hota 
 
 for (const key in map) {
     console.log(key);
